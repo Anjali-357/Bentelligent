@@ -1,0 +1,30 @@
+
+This JavaScript code includes several functions that enhance the functionality of a webpage. Let's break down the code and explain each part:
+
+'use strict';:
+This statement enforces a stricter set of rules and error handling in JavaScript. It helps catch common coding errors and prevents the use of certain error-prone features.
+addEventOnelem Function:
+
+This function is designed to add an event listener to one or multiple elements.
+Parameters:
+elem: The element or elements to which the event listener will be added.
+type: The type of event (e.g., 'click', 'scroll').
+callback: The function to be executed when the event occurs.
+
+toggleNavbar Function:
+Toggles the "active" class on the navbar and navToggler elements, creating a toggle effect for a responsive navigation bar.
+Navbar Interaction:
+Event listeners are added to the navToggler to trigger the toggleNavbar function on a click event.
+Event listeners are added to each navbar link to close the navbar when a link is clicked.
+
+activeHeader Function:
+Adds or removes the "active" class on the header element based on the user's scroll position. If the scroll position is greater than 100 pixels, the "active" class is added; otherwise, it is removed.
+Header Scroll Interaction:
+An event listener is added to the window to trigger the activeHeader function on a scroll event.
+
+Filter Tab Interaction:
+Event listeners are added to each tab card to trigger the navigateTab function on a click event.
+The navigateTab function removes the "active" class from the last clicked tab and adds it to the current tab.
+
+Explanation Comments:
+Comments throughout the code provide explanations for each function, making it easier for others (or yourself) to understand the purpose of each block of code

@@ -1,0 +1,8 @@
+<!DOCTYPE html>: Declares the HTML version.
+<html lang="en">: The lang attribute specifies the language (English in this case).
+<head>: Contains meta-information 
+<meta charset="UTF-8">: Sets the character encoding to UTF-8 for unicode and translate unique binary.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Configures the viewport for better responsive design.
+<title>Your Title Here</title>: Sets the title of the HTML document.
+
+
